@@ -1,0 +1,56 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Moon Landing RV Park and Marina - Church Services
+
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css
+
+    body
+
+        include includes/header
+
+        include includes/navbar
+
+        section.page-section 
+            .container.px-4 
+                .row.gx-5
+                    .col
+                        .carousel.church-pics.slide.carousel-dark(id='churchCarousel' data-bs-theme='dark')
+                            .carousel-indicators
+                                button.active(data-bs-target='#churchCarousel' data-bs-slide-to='0' aria-current='true' aria-label='slide 1')
+                                button(data-bs-target='#churchCarousel' data-bs-slide-to='1' aria-label='slide 2')
+                                button(data-bs-target='#churchCarousel' data-bs-slide-to='2' aria-label='slide 3')
+                            .carousel-inner
+                                .carousel-item.active
+                                    img.church-pic.d-block.w-100(src='assets/img/church1.jpg' alt='...')
+                                .carousel-item 
+                                    img.church-pic.d-block.w-100(src='assets/img/church2.jpg' alt='...')
+                                .carousel-item 
+                                    img.church-pic.d-block.w-100(src='assets/img/church3.jpg' alt='...')
+                            button.carousel-control-prev(data-bs-target='#churchCarousel' data-bs-slide='prev')
+                                span.carousel-control-prev-icon(aria-hidden='true')
+                                span.visually-hidden Previous
+                            button.carousel-control-next(data-bs-target='#churchCarousel' data-bs-slide='next')
+                                span.carousel-control-next-icon(aria-hidden='true')
+                                span.visually-hidden Next
+                    .col 
+                        .church-description
+                            .intro-text-right.left-0.text-center.bg-faded.p-5.rounded
+                                h2.section-heading.mb-4
+                                    span.section-heading-upper Church
+                                    span.section-heading-lower Services
+                                p.mb-3
+                                    | Our Church Services are held under the pavilion in front of our camp store from Memorial Day through Labor Day!  These services are sponsored by Northside Baptist Church in Laurens, South Carolina.  Pastor Ronnie Blackwell leads us in worship on Sundays at 8:45 AM.  We gather under the pavilion a little early and enjoy coffee and fellowship with our neighbors.  Come as you are and have a great time in music, song, and worship!
+
+        include includes/footer
+
+        include includes/scripts

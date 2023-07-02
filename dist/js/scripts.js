@@ -1,7 +1,7 @@
 /*!
-* Start Bootstrap - Business Casual v7.0.9 (https://startbootstrap.com/theme/business-casual)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-casual/blob/master/LICENSE)
+* Start Bootstrap - Moon Landing RV Park and Marina v0.1.0 (http://moonlandingrvpark.com/)
+* Copyright 2013-2023 Jonathon Sturdevant
+* Licensed under MIT (https://github.com/StartBootstrap/moon--landing-rv-marina/blob/master/LICENSE)
 */
 // Highlights current date on contact page
 window.addEventListener('DOMContentLoaded', event => {

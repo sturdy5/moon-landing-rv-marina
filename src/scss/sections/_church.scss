@@ -1,5 +1,13 @@
+.church-pics {
+    @media (min-width: 992px) {
+        .church-pic {
+            width: 50%
+        }
+    }
+}
 .product-item {
     @media (min-width: 992px) {
+        
         .product-item-title {
             position: relative;
             z-index: 1;

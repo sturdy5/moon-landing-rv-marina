@@ -13,9 +13,10 @@
 @import "./components/bootstrap-overrides";
 
 // Sections
+@import "./sections/header.scss";
 @import "./sections/about.scss";
 @import "./sections/cta.scss";
 @import "./sections/footer.scss";
 @import "./sections/intro.scss";
-@import "./sections/products.scss";
+@import "./sections/church.scss";
 @import "./sections/store.scss";

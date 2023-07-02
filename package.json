@@ -1,7 +1,7 @@
 {
-    "title": "Business Casual",
-    "name": "startbootstrap-business-casual",
-    "version": "7.0.9",
+    "title": "Moon Landing RV Park and Marina",
+    "name": "moon--landing-rv-marina",
+    "version": "0.1.0",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
         "build:assets": "node scripts/build-assets.js",
@@ -12,31 +12,20 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "A casual HTML website theme for businesses built with Bootstrap",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://startbootstrap.com/theme/business-casual",
+    "description": "A website for the Moon Landing RV Park and Marina",
+    "homepage": "http://moonlandingrvpark.com/",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-business-casual/issues",
+        "url": "https://github.com/sturdy5/moon-landing-rv-marina/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (https://davidmiller.io/)"
-    ],
+    "author": "Jonathon Sturdevant",
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-business-casual.git"
+        "url": "https://github.com/sturdy5/moon-landing-rv-marina.git"
     },
     "dependencies": {
-        "bootstrap": "5.2.3"
+        "bootstrap": "5.3.0"
     },
     "devDependencies": {
         "autoprefixer": "10.4.14",
