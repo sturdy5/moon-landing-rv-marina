@@ -1,0 +1,80 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Moon Landing RV Park and Marina - Contact
+
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css
+
+    body
+
+        include includes/header
+
+        include includes/navbar
+
+        section.page-section.cta
+            .container
+                .row
+                    .col-xl-9.mx-auto
+                        .cta-inner.bg-faded.text-center.rounded
+                            h2.section-heading.mb-5
+                                span.section-heading-upper Come On In
+                                span.section-heading-lower We're Open
+                            ul.list-unstyled.list-hours.mb-5.text-left.mx-auto
+                                li.list-unstyled-item.list-hours-item.d-flex
+                                    | Sunday
+                                    span.ms-auto Closed
+                                li.list-unstyled-item.list-hours-item.d-flex
+                                    | Monday
+                                    span.ms-auto 7:00 AM to 8:00 PM
+                                li.list-unstyled-item.list-hours-item.d-flex
+                                    | Tuesday
+                                    span.ms-auto 7:00 AM to 8:00 PM
+                                li.list-unstyled-item.list-hours-item.d-flex
+                                    | Wednesday
+                                    span.ms-auto 7:00 AM to 8:00 PM
+                                li.list-unstyled-item.list-hours-item.d-flex
+                                    | Thursday
+                                    span.ms-auto 7:00 AM to 8:00 PM
+                                li.list-unstyled-item.list-hours-item.d-flex
+                                    | Friday
+                                    span.ms-auto 7:00 AM to 8:00 PM
+                                li.list-unstyled-item.list-hours-item.d-flex
+                                    | Saturday
+                                    span.ms-auto 9:00 AM to 5:00 PM
+                            p.address.mb-5
+                                em
+                                    strong 4105 Watts Bridge Road
+                                    br
+                                    | Cross Hill, South Carolina 29332
+                            p.mb-0
+                                small
+                                    em Call Anytime
+                                br
+                                | (864) 998-4292
+                            p.mb-0
+                                small 
+                                    em or Email Us 
+                                br
+                                a(href='mailto:info@moonlandingrvpark.com') info@moonlandingrvpark.com
+
+        section.page-section.about-heading
+            .container
+                .map-content
+                    .row
+                        .col-xl-9.col-lg-10.mx-auto
+                            .bg-faded.rounded.p-5
+                                .google-map(id="map")
+
+        include includes/footer
+
+        include includes/scripts
+        include includes/map

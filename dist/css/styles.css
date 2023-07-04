@@ -12156,6 +12156,13 @@ p {
   }
 }
 
+@media (min-width: 992px) {
+  .map-content .google-map {
+    width: 100%;
+    height: 400px;
+  }
+}
+
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
